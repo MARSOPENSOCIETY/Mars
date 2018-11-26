@@ -39,7 +39,10 @@ sudo npm install -g truffle
 You can contribute, you are nice to receive every help.
 
 ## References
-[1](https://github.com/slockit/DAO) TheDao
-[2](https://blog.zeppelinos.org/proxy-patterns/) Zeppeling Patrones Proxy
-[3](https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) Alexander Vitanov: Solidity Smarts Contracts Design Patterns
-[4](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/docs/known_attacks.md) SmartContract Best Practices - Ataques conocidos
+[[1]](https://github.com/slockit/DAO) TheDao
+
+[[2]](https://blog.zeppelinos.org/proxy-patterns/) Zeppeling Patrones Proxy
+
+[[3]](https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) Alexander Vitanov: Solidity Smarts Contracts Design Patterns
+
+[[4]](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/docs/known_attacks.md) SmartContract Best Practices - Ataques conocidos
