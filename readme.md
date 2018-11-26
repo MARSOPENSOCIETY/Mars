@@ -10,6 +10,9 @@ Mars has a bug bounty program for rewarding hackers who find security vulnerabil
 #### Get started contributing with a [good first issue](https://github.com/MARSOPENSOCIETY/Mars/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 Don't be shy to contribute small changes. Every help will be nice, and we animate to all beginers to start contributing with us. :)
 
+## What are going to find
+At now, the source code for our future Dapp. A kernel that allow to deploy a modular Dapp and allow to upgrade and fix error on smarts contracts.
+
 ## Documentation
 We are improving our documentation. Meanwhile you can visit our portal. [Mars](https://www.marsopensociety.com/info/).
 
@@ -34,3 +37,9 @@ sudo npm install -g truffle
 
 ## Contributing
 You can contribute, you are nice to receive every help.
+
+## References
+[1](https://github.com/slockit/DAO) TheDao
+[2](https://blog.zeppelinos.org/proxy-patterns/) Zeppeling Patrones Proxy
+[3](https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) Alexander Vitanov: Solidity Smarts Contracts Design Patterns
+[4](https://github.com/ConsenSys/smart-contract-best-practices/blob/master/docs/known_attacks.md) SmartContract Best Practices - Ataques conocidos

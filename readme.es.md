@@ -10,6 +10,9 @@ Mars tiene un programa de recompensa de errores para recompensar a los hacker a 
 #### Contribuye con un con un [good first issue](https://github.com/MARSOPENSOCIETY/Mars/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 No dudes en contribuir con pequeños cambios. Todo ayuda será increíble y animamos a los que estén comenzando que no duden en contribuir. :)
 
+## Que voy a encontrar
+Hasta el momento, tenemos el kernel de nuestras futuras Dapp. Un kernel que nos permitirá desplegar de forma modular cualquier Dapp, y poder actualizar o corregir errores en los smart contracts.
+
 ## Documentación
 Estamos mejorando la documentación. Mientras puedes visitar nuestro portal [Mars](https://www.marsopensociety.com/info/).
 
