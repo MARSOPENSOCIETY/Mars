@@ -1,10 +1,10 @@
 // solium-disable linebreak-style
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.24;
 
 import "./ContractValidator.sol";
 
 /** 
-* author: https://github.com/AtreyuGreen
+* author: Rafael Piernagorda (https://github.com/AtreyuGreen)
 * notice: Define methods for owner of contract.
 */
 contract OwnedContract

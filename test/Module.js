@@ -1,3 +1,4 @@
+
 const Kernel = artifacts.require("./test/kernel/KernelMock.sol");
 const Module1 = artifacts.require("./test/app/Module1.sol");
 const Module2 = artifacts.require("./test/app/Module2.sol");

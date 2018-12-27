@@ -1,3 +1,4 @@
+
 const NameRegistry = artifacts.require("./test/registry/NameRegistryMock.sol");
 const Module1 = artifacts.require("./test/app/Module1.sol");
 const Module2 = artifacts.require("./test/app/Module2.sol");

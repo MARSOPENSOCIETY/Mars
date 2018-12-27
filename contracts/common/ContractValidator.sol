@@ -1,8 +1,8 @@
 // solium-disable linebreak-style
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.24;
 
 /** 
-* author: https://github.com/AtreyuGreen
+* author: Rafael Piernagorda (https://github.com/AtreyuGreen)
 * notice: Define methods for checking contract parameters. Based on https://github.com/aragon/aragonOS/blob/dev/contracts/common/IsContract.sol
 */
 contract ContractValidator

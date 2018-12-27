@@ -1,8 +1,8 @@
 // solium-disable linebreak-style
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.24;
 
 /** 
-* author: https://github.com/AtreyuGreen
+* author: Rafael Piernagorda (https://github.com/AtreyuGreen)
 * notice: Define a NameRegistry pattern include here https://medium.com/(at)i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784 
 */
 

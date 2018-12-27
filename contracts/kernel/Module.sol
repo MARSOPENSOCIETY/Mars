@@ -1,11 +1,11 @@
 // solium-disable linebreak-style
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.24;
 
 import "./Kernel.sol";
 import "../common/OwnedContract.sol";
 
 /** 
-* author: https://github.com/AtreyuGreen
+* author: Rafael Piernagorda (https://github.com/AtreyuGreen)
 * notice: Define behaviour for a module that can be called into by Kernel.
 */
 contract Module is OwnedContract

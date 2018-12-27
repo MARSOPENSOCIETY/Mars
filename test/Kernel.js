@@ -138,23 +138,23 @@ contract('Kernel', function(accounts) {
     });
 
     it("Stopping kernel", async function() {
-        kernel.stop(sender);
+        await kernel.stop(sender);
         assert.isTrue(await registerModuleError('Mars.App.Module2', sender, sender, "Kernel is freezed"));
         assert.isTrue(await loadModuleError('Mars.App.Module2', sender, "Kernel is freezed"));
     });
 
     it("Stopping and init kernel", async function() {
-        kernel.stop(sender);
+        await kernel.stop(sender);
         assert.isTrue(await registerModuleError('Mars.App.Module2', sender, sender, "Kernel is freezed"));
         assert.isTrue(await loadModuleError('Mars.App.Module2', sender, "Kernel is freezed"));
 
-        kernel.init(sender);
+        await kernel.init(sender);
         assert.isTrue(await registerModule('Mars.App.Module', module1.address, sender), 'Module is not register');
         assert.equal(await loadModule('Mars.App.Module'), module1.address);
     });
 
     it("Stopping kernel", async function() {
-        kernel.stop(sender);
+        await kernel.stop(sender);
         assert.isTrue(await registerModuleError('Mars.App.Module2', sender, sender, "Kernel is freezed"));
         assert.isTrue(await loadModuleError('Mars.App.Module2', sender, "Kernel is freezed"));
     });

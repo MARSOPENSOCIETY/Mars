@@ -1,5 +1,5 @@
 // solium-disable linebreak-style
-pragma solidity ^0.4.4;
+pragma solidity ^0.4.24;
 
 import "./Module.sol";
 import "../registry/NameRegistry.sol";
@@ -8,7 +8,7 @@ import "../common/OwnedContract.sol";
 import "../common/ContractValidator.sol";
 
 /** 
-* author: https://github.com/AtreyuGreen
+* author: Rafael Piernagorda (https://github.com/AtreyuGreen)
 * notice: Define the Kernel for loading and creating new modules.
 */
 
@@ -41,6 +41,17 @@ contract Kernel is NameRegistry, StateMachine
     }    
 
     /**
+    * notice Get the address of the Module
+    * param _namespace. Namespace of the module to load.
+    * returns Address of the module.
+    */
+    function checkModule(string memory _namespace) public view returns(bool)
+    {
+        return getContractDetails(_namespace) != address(0x0);
+    }
+
+
+    /**
     * notice Create a module from the address passed
     * param addressModule. Address of the module to create
     * return Module created.
@@ -50,4 +61,5 @@ contract Kernel is NameRegistry, StateMachine
         require(addressModule != address(0x0), "Module is empty");
         return Module(addressModule);
     }
+
 }

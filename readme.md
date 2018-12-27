@@ -11,7 +11,7 @@ Mars has a bug bounty program for rewarding hackers who find security vulnerabil
 Don't be shy to contribute small changes. Every help will be nice, and we animate to all beginers to start contributing with us. :)
 
 ## What are going to find
-At now, the source code for our future Dapp. A kernel that allow to deploy a modular Dapp and allow to upgrade and fix error on smarts contracts.
+The source code for our future Dapp. A kernel that allow to deploy a modular Dapp and allow to upgrade and fix error on smarts contracts. Moreover the token exchange for buy and transfer the token deployed.
 
 ## Documentation
 We are improving our documentation. Meanwhile you can visit our portal. [Mars](https://www.marsopensociety.com/info/).
